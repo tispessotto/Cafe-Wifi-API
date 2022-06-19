@@ -15,6 +15,7 @@ Use the /random route to get a random Cafe contained in database.\
 #####
 POST - Post a New Cafe\
 Use the /add route to add a new Cafe to database.\
+Params:\
 name - name of the cafe\
 map_url -  link to cafe's location\
 img_url - an image of the cafe\
@@ -24,7 +25,18 @@ has_toilet - True/False, 0/1 or yes/no\
 has_wifi - True/False, 0/1 or yes/no\
 has_sockets - True/False, 0/1 or yes/no\
 can_take_calls - True/False, 0/1 or yes/no\
-coffee_price - coffee price
+coffee_price - coffee price\n
+#####
+PATCH -Update a Coffee Price\
+Use the /update-price/<cafe-id> route to update the coffee price in a cafe\n
+Params:\
+new_price - the updated price
+#####
+DEL - Delete a Cafe by ID
+Use the /report-closed/<cafe-id> route to delete an existent cafe in database\n
+Params:\
+api-key - Admin api-key
+
 
 
 
