@@ -5,7 +5,7 @@ Everything else can be done via API as per below documentation:
 ######
 GET - Search Cafes By Location\
 The /search route will return the Cafes around the location given, if any.
-Use the "loc" parameter to pass the location.\
+Use the "loc" parameter to pass the location.
 ######
 GET - Get All Cafes\
 Use the /all route to get a list of all the Cafes contained in database.
