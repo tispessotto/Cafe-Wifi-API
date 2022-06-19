@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cafe&Wifi API</title>
+        <link href="static/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Welcome to the Cafe & Wifi API</h1>
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Map URL</th>
+                <th>Image URL</th>
+                <th>Location</th>
+                <th>Seats</th>
+                <th>Has toilet</th>
+                <th>Has WiFi</th>
+                <th>Has socket</th>
+                <th>Can Take Calls</th> 
+                <th>Coffee Price</th>
+            </tr>
+            {% for cafe in cafes %}
+            <tr>
+                <td>{{ cafe.id }}</td>
+                <td>{{ cafe.name }}</td>
+                <td><a href="{{ cafe.map_url }}">Location Link</a></td>
+                <td><a href="{{ cafe.img_url }}">Image Link</a></td>
+                <td>{{ cafe.location }}</td>
+                <td>{{ cafe.seats }}</td>
+                <td>{{ cafe.has_toilet }}</td>
+                <td>{{ cafe.has_wifi }}</td>
+                <td>{{ cafe.has_sockets }}</td>
+                <td>{{ cafe.can_take_calls }}</td>
+                <td>{{ cafe.coffee_price }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>
