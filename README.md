@@ -4,14 +4,14 @@ In it you can read directly on the website the current cafes and their info in t
 Everything else can be done via API as per below documentation:\
 ######
 GET - Search Cafes By Location\
-The /search route will return the Cafes around the location given, if any.\
+The /search route will return the Cafes around the location given, if any.
 Use the "loc" parameter to pass the location.\
 ######
 GET - Get All Cafes\
-Use the /all route to get a list of all the Cafes contained in database.\
+Use the /all route to get a list of all the Cafes contained in database.
 #####
 GET - Get Random Cafe\
-Use the /random route to get a random Cafe contained in database.\
+Use the /random route to get a random Cafe contained in database.
 #####
 POST - Post a New Cafe\
 Use the /add route to add a new Cafe to database.\
@@ -25,10 +25,10 @@ has_toilet - True/False, 0/1 or yes/no\
 has_wifi - True/False, 0/1 or yes/no\
 has_sockets - True/False, 0/1 or yes/no\
 can_take_calls - True/False, 0/1 or yes/no\
-coffee_price - coffee price\n
+coffee_price - coffee price
 #####
 PATCH -Update a Coffee Price\
-Use the /update-price/<cafe-id> route to update the coffee price in a cafe\n
+Use the /update-price/<cafe-id> route to update the coffee price in a cafe\
 Params:\
 new_price - the updated price
 #####
