@@ -28,7 +28,7 @@ can_take_calls - True/False, 0/1 or yes/no\
 coffee_price - coffee price
 #####
 PATCH - Update a Coffee Price\
-Use the /update-price/<cafe-id> route to update the coffee price in a cafe\
+Use the /update-price/<cafe-id> route to update the coffee price in a cafe.\
 Params:\
 new_price - the updated price
 #####
