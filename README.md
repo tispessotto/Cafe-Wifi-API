@@ -24,7 +24,7 @@ has_toilet - True/False, 0/1 or yes/no\
 has_wifi - True/False, 0/1 or yes/no\
 has_sockets - True/False, 0/1 or yes/no\
 can_take_calls - True/False, 0/1 or yes/no\
-coffee_price - coffee price\
+coffee_price - coffee price
 
 
 
