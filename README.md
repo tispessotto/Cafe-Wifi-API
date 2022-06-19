@@ -27,13 +27,13 @@ has_sockets - True/False, 0/1 or yes/no\
 can_take_calls - True/False, 0/1 or yes/no\
 coffee_price - coffee price
 #####
-PATCH -Update a Coffee Price\
+PATCH - Update a Coffee Price\
 Use the /update-price/<cafe-id> route to update the coffee price in a cafe\
 Params:\
 new_price - the updated price
 #####
 DEL - Delete a Cafe by ID
-Use the /report-closed/<cafe-id> route to delete an existent cafe in database\n
+Use the /report-closed/<cafe-id> route to delete an existent cafe in database\
 Params:\
 api-key - Admin api-key
 
